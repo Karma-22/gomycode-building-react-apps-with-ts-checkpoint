@@ -1,0 +1,26 @@
+{
+  "name": "gomycode-building-react-apps-with-ts-checkpoint",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "GoMyCode Bootcamp - Building React Apps with TypeScript Checkpoint (Converting Functional and Class Components to TypeScript with typing and comments)",
+  "author": "Karma-22 (Darius Ange)",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2"
+  }
+}
